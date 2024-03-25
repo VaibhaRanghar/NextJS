@@ -1,7 +1,11 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Home() {
-  return (
+  return (<>
     <h1>Home page!</h1>
-  )
+    <Link href={"/blog"}>Blog</Link>
+    <Link href={"/product"}>Product</Link>
+    </>
+)
 }
