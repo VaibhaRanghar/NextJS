@@ -1,11 +1,9 @@
-import Link from 'next/link'
-import React from 'react'
 
+import React from 'react'
+import '@/app/global.css';
 export default function Home() {
   return (<>
     <h1>Home page!</h1>
-    <Link href={"/blog"}>Blog</Link>
-    <Link href={"/product"}>Product</Link>
     </>
 )
 }

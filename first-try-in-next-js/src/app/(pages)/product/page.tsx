@@ -7,7 +7,6 @@ export const metadata = {
 
 export default function Products() {
   return (<>
-    <Link href={"/"}>Home</Link>
     <h1>Products</h1>
     
     </>)
